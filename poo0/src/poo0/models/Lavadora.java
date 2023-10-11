@@ -3,8 +3,8 @@ package poo0.models;
 
 
 public class Lavadora extends Electrodomestico{
-    private static final double CARGA_DEF = 5;
-    private double carga;
+    protected static final double CARGA_DEF = 5;
+    protected double carga;
 
     public Lavadora() {
         super();

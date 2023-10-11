@@ -10,12 +10,12 @@ public class Electrodomestico {
     protected static final char CONSUMO_DEF = 'F';
     protected static final double PESO_DEF = 5;
     
-    private static String [] listaColores = {"blanco", "negro", "rojo", "azul", "gris"};
+    protected static String [] listaColores = {"blanco", "negro", "rojo", "azul", "gris"};
     
-    private double precioBase;
-    private String color;
-    private char consumoEnergetico;
-    private double peso;
+    protected double precioBase;
+    protected String color;
+    protected char consumoEnergetico;
+    protected double peso;
  
     
     public Electrodomestico(){

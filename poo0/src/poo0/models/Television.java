@@ -4,11 +4,11 @@ package poo0.models;
 
 public class Television extends Electrodomestico{
     
-    private static final double PULGADAS_DEF = 20;
-    private static final boolean SINTONIZADOR_DEF = false;
+    protected static final double PULGADAS_DEF = 20;
+    protected static final boolean SINTONIZADOR_DEF = false;
 
-    private double pulgadas;
-    private boolean sintonizadorTV;
+    protected double pulgadas;
+    protected boolean sintonizadorTV;
 
     public Television() {
         super();
